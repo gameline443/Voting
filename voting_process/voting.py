@@ -20,6 +20,8 @@ fund_key = mnemonic.to_private_key(fund_mnemonic)
 choice_id = 17264161 #Official Test Asset ID for Choice Coin
 decision_one = ""
 decision_two = ""
+decision_three = ""
+decision_four = ""
 test_address = ''
 test_mnemonic = ''
 
@@ -50,8 +52,7 @@ def count(address):
             return message
     error = 'The account has not opted-in to the asset yet.'
     return error
-
-
+	
 
 #This is quantifies a voter's vote and allows its to be recorded on the Algorand Blockchain through Choice Coin.
 #Each of the candiates/decisions will have their own Algorand Accounts to recieve these votes in the form of Choice Coin.
